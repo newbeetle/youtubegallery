@@ -5,7 +5,7 @@
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * @Author _Vinny_ - http://www.suportephpbb.com.br
-* French Translation - Philippe B.
+* @Translation Anvar - http://bb3.mobi
 *
 */
 
@@ -35,14 +35,15 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'ACP_VIDEO'				=> 'Galerie vidéo Youtube',
-	'ACP_VIDEO_SETTINGS'	=> 'Paramètres des vidéos',
-	'ACP_VIDEO_CATEGORY'	=> 'Catégories des vidéos',
-	'ACP_VIDEO_TITLE'		=> 'Titres des vidéos',
+	'ACP_VIDEO'				=> 'Видео галерея',
+	'ACP_VIDEO_EXPLAIN'		=> '',
+	'ACP_VIDEO_CATEGORY'	=> 'Категории видео',
+	'ACP_VIDEO_TITLE'		=> 'Заголовки видео',
+
 	//Log
-	'LOG_VIDEO_SETTINGS'			=> '<strong>Paramètres de la galerie vidéo mis à jour</strong>',
-	'LOG_VIDEO_CATEGORY_ADD'		=> '<strong>Catégorie vidéo Youtube ajoutée/strong>',
-	'LOG_VIDEO_CATEGORY_UPDATE'		=> '<strong>Catégorie vidéo Youtube mise à jour</strong>',
-	'LOG_VIDEO_CATEGORY_DELETED'	=> '<strong>Catégorie vidéo Youtube supprimée</strong>',
-	'LOG_VIDEO_TITLE_DELETED'		=> '<strong>Titre vidéo Youtube supprimé</strong>',
+	'LOG_VIDEO_SETTINGS'			=> '<strong>Обновлены настройки видео галереи</strong>',
+	'LOG_VIDEO_CATEGORY_ADD'		=> '<strong>Добавлена категория видео галереи</strong>',
+	'LOG_VIDEO_CATEGORY_UPDATE'		=> '<strong>Обновлена категория видео галереи</strong>',
+	'LOG_VIDEO_CATEGORY_DELETED'	=> '<strong>Удалена категория видео галереи</strong>',
+	'LOG_VIDEO_TITLE_DELETED'		=> '<strong>Удалены заголовки видео</strong>',
 ));
